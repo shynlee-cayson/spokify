@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular Std', sans-serif;
+    background-color: #191414;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #191414;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #535353;
+    border-radius: 4px;
+    background-color: #191414;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #1db954;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.remember-me label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1db954;
+    border: none;
+    border-radius: 500px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #1ed760;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #b3b3b3;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #ffffff;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #535353;
+    border-radius: 500px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social-btn.facebook:hover {
+    background-color: #1877f2;
+}
+
+.social-btn.google:hover {
+    background-color: #fe4c2db0;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.signup-link a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Always",
+      "artist": "Daniel Caesar",
+      "cover": "assets/pic1.jpg",
+      "file": "music/Daniel-Caesar-Always.mp3"
+    },
+    {
+      "title": "Enchanted",
+      "artist": "Taylor Swift",
+      "cover": "assets/Taylorswift.jpg",
+      "file": "music/Taylor-Swift-Enchanted.mp3"
+    }
+  ]
